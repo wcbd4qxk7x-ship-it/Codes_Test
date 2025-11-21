@@ -1,3 +1,16 @@
-name = input("请输入你的名字")
-print("你好，",name)
+# name = input("请输入你的名字")
+# print("你好，",name)
 
+#方法：可对数据执行的操作
+username = "adam22"
+print(username.upper())#全大写
+print(username.lower())#全小写
+print(username.title())#首字母大写
+print(username.capitalize())#首字母大写，其余小写
+print(username.replace("a", "A"))#替换
+print(username.find("a"))#查找字符位置
+print(username.index("a"))#查找字符位置
+print(username.count("a"))#统计字符出现次数
+print(username.startswith("a"))#判断是否以某个字符开头
+print(username.endswith("m"))#判断是否以某个字符结尾
+print(username.isalpha())#判断是否全是字母 
