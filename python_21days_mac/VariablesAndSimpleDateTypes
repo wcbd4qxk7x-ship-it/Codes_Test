@@ -14,3 +14,5 @@ print(username.count("a"))#统计字符出现次数
 print(username.startswith("a"))#判断是否以某个字符开头
 print(username.endswith("m"))#判断是否以某个字符结尾
 print(username.isalpha())#判断是否全是字母 
+
+#在字符串中插入变量
